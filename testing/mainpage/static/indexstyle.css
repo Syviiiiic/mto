@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+
+.content{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,0.2) 0%, rgba(63,94,251,0.2842787114845938) 100%);
+}
+
+.test-window{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(251, 110, 159, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 20px 12px -16px rgba(0,30,85,.1), 0 8px 24px 18px rgba(0,30,85,.05);
+    width: 50%; 
+    font-size: 18px;
+}
+
+.fieldset{
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+}
+
+.que-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.next-btn{
+    padding:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    margin-left: auto;
+}
+
+.prev-btn{
+    padding:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    margin-right: auto;
+}
+
+.end-btn{
+    padding:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    margin-left: auto;
+}

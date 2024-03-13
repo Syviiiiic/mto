@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\yungs\VscodePyProjects\mto\mto\venv
+set VIRTUAL_ENV=D:\Program files(x86)\mto\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
